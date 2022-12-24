@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@color/gren"
+            android:paddingTop="@dimen/p_m_10dp"
+          android:paddingBottom="30dp"
+          android:paddingHorizontal="@dimen/p_m_10dp"
+          >
+          <androidx.appcompat.widget.LinearLayoutCompat
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:layout_height="match_parent">
+              <ImageView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="@dimen/p_m_10dp"
+                  android:layout_marginTop="@dimen/p_m_10dp"
+                  android:src="@drawable/ic_sharp_reorder_24"
+                  />
+              <com.google.android.material.card.MaterialCardView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  app:cardCornerRadius="20dp"
+                  android:layout_marginTop="@dimen/p_m_40dp"
+
+                  >
+                  <androidx.appcompat.widget.LinearLayoutCompat
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:padding="@dimen/p_m_20dp"
+                      >
+                      <androidx.appcompat.widget.LinearLayoutCompat
+                          android:layout_width="wrap_content"
+                          android:orientation="vertical"
+                          android:layout_height="wrap_content">
+                          <TextView
+                              android:textSize="@dimen/text_size_26sp"
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="Bugungi pul"
+                              />
+                          <TextView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="53 000 dollar"
+                              android:textStyle="bold"
+                              android:textColor="#344767"
+                              android:textSize="@dimen/text_size_26sp"
+                              android:layout_marginTop="@dimen/p_m_5dp"
+                              android:layout_marginBottom="@dimen/p_m_10dp"
+                              />
+                          <androidx.appcompat.widget.LinearLayoutCompat
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content">
+                              <TextView
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:text="Bugungi pul"
+                                  />
+                              <TextView
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:text="Bugungi pul"
+                                  />
+                          </androidx.appcompat.widget.LinearLayoutCompat>
+
+                      </androidx.appcompat.widget.LinearLayoutCompat>
+
+                  </androidx.appcompat.widget.LinearLayoutCompat>
+
+              </com.google.android.material.card.MaterialCardView>
+
+          </androidx.appcompat.widget.LinearLayoutCompat>
+
+      </FrameLayout>
+    </LinearLayout>
+
+</ScrollView>
